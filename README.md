@@ -1,3 +1,3 @@
-# Beats per minute counter program
-Calculates the counts per minute from a keyboard sequence, if at least five keys are hit.  
+# Beats per minute counting program
+Calculates the counts per minute from a sequence of keyboard hits, if at least five are given.  
 'q' terminates the program.
