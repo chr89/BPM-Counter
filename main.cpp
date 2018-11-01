@@ -16,7 +16,7 @@ void ShowConsoleCursor(bool showFlag)
 }
 
 void* printBPMThread(void* input_counterObject) {
-	CROMEN_Cl::BPMCounter* counter_pnt = static_cast<CROMEN_Cl::BPMCounter*>(input_counterObject);
+	CHR_Cl::BPMCounter* counter_pnt = static_cast<CHR_Cl::BPMCounter*>(input_counterObject);
 	
 	std::cout << "Started thread for printing\n\n";
 	ShowConsoleCursor(false);
@@ -35,7 +35,7 @@ void* printBPMThread(void* input_counterObject) {
 
 int main() {
 	
-	CROMEN_Cl::BPMCounter counter;
+	CHR_Cl::BPMCounter counter;
 	char button_pressed;
 	
 	// create second thread

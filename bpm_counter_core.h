@@ -8,7 +8,7 @@
 #include <vector>
 
 
-namespace CROMEN_Cl {
+namespace CHR_Cl {
 	
 	typedef std::chrono::time_point<std::chrono::high_resolution_clock> time_stamp;
 	time_stamp getTime();
@@ -16,7 +16,7 @@ namespace CROMEN_Cl {
 	
 	class BPMCounter {
 		private:
-			std::vector<CROMEN_Cl::time_stamp> data;
+			std::vector<CHR_Cl::time_stamp> data;
 		public:
 			BPMCounter();
 			void addBeat();
